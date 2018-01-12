@@ -1,0 +1,30 @@
+{
+  "name": "rxtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retracy/rxtest.git"
+  },
+  "author": "Bob Tracy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retracy/rxtest/issues"
+  },
+  "homepage": "https://github.com/retracy/rxtest#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
